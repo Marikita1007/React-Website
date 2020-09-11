@@ -24,8 +24,7 @@ function Navbar() {
             <nav className='navbar'>
                 <div className='navbar-container'>
                     <Link to='/' className='navbar-logo'>
-                        HONEYDUKES 
-                        <i class='fas fa-hat-wizard'></i>
+                        HONEYDUKES <i class='fas fa-hat-wizard'></i>
                     </Link>
                     <div className="menu-icon" onClick={handleClick}>
                         <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
